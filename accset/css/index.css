@@ -1,0 +1,268 @@
+/* Header */
+
+.top-banner {
+    background: #69d2e8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header_share {}
+
+.header_share-link {
+    text-decoration: none;
+    
+}
+.header_share-icon {
+    width: 34px;
+    height: 32px;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 50%;
+    background-color: var(--white);
+    font-size: 24px;
+    color: #69d2e8;
+    margin: 0 5px;
+}
+
+
+.header_search {
+    display: flex;
+    align-items: center;
+}
+
+
+.header_search-icon {
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 550;
+    margin-right: 6px;
+}
+
+.header_search-input {
+    padding: 6px 10px 6px 0px;
+    height: 32px;
+    outline: none;
+    color: var(--white);
+    background: none;
+    border: none;
+    width: 88%;
+    position: relative;
+    font-size: 0.9em;
+}
+
+.header_contact {
+    display: flex;
+}
+
+.header_contact-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_contact-icon, .header_contact-text  {
+    font-size: 13px;
+    color: var(--white);
+}
+
+.header_contact-text {
+    font-size: 14px;
+}
+
+.header_contact-icon {
+    margin-right: 4px;
+}
+
+/* Header slider */
+.slider_wrapper {
+    overflow: hidden;
+}
+
+.slider_main {
+    position: relative;
+    display: flex;
+    transition: transform 0.25s linear;
+    
+}
+
+.header_nav {
+    position: absolute;
+    width: 1230px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.header_nav-logo h2{
+    color: var(--white);
+    font-size: 36px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    color: var(--white);
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.nav-item.active {
+    color: #ef5674;
+}
+
+.slider_item {
+    width: 100%;
+    flex: 1 0 100%;
+    display: none;
+}
+
+.slider_item.active {
+    display: block;
+}
+
+.slider_item-img {
+    width: 100%;
+    height: 92vh;
+}
+
+.slider_item-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+    display: none;
+}
+
+.slider_item-caption.active {
+    display: block;
+}
+
+.slider_item-caption h3 {
+    color: var(--white);
+    text-align: center;
+    font-size: 42px;
+}
+
+.slider_item-caption p {
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.slider-dots {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider-dots-item {
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #69d2e8;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid var(--white);
+    
+}
+
+.slider-dots-item.active {
+    background-color: #d52f47;
+}
+
+/* Top_game */
+
+.top_game {
+    padding: 64px 0;
+    overflow: hidden;
+}
+
+.top_game-heading {
+    color: #f43c60;
+    font-size: 38px;
+    text-align: center;
+}
+
+.top_game-container {
+    padding-top: 64px;
+    position: relative;
+    transition: all 0.5s linear;
+}
+
+.top_game-item h4 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+}
+
+.top_game-item p {
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    margin: 12px 0;
+}
+
+/* Latest_games */
+
+.latest_games {
+    padding: 20px 0;
+}
+
+.latest_games-heading {
+    color: #f43c60;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.latest_games-list {}
+
+.latest_games-item {
+    display: flex;
+    margin-bottom: 9px;
+}
+
+.latest_games-item img {
+    width: 33.3333%;
+    padding: 0 24px;
+}
+
+.latest_games-description {
+    padding: 0 5px;
+    width: 66.6667%;
+}
+.latest_games-title {
+    padding: 9px;
+    background-color: #F4F4F4;
+    font-size: 20px;
+    color: #5bb2fc;
+    font-family: 'Play-Regular';
+    cursor: pointer;
+}
+.latest_games-text {
+    font-size: 14px;
+    color: #888;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.latest_games-video {
+    width: 100%;
+}
